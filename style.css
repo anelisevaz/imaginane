@@ -14,6 +14,7 @@ body{
 }
 
 header{
+	text-shadow: 1px 1px 5px #2900cd;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -217,7 +218,7 @@ h3{
 
 footer{
   overflow: hidden;
-  background-color: #001e01;  
+  background-color: #08002a;  
   width: 100%;
   text-align: center;
   color: #f1f1f1;
