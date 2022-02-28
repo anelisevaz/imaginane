@@ -21,7 +21,7 @@ header{
 	padding: 30px 100px;
 	display: flex;
 	justify-content: space-between;
-	align-itens: center;
+	align-items: center;
 	z-index: 10000;
 }
 header .logo{
@@ -135,7 +135,8 @@ section img#montains_front{
 .column {
   float: left;
   width: 33%;
-  padding: 15px;
+    padding: 20px;
+    margin-bottom: 20px;;
 }
 
 .card:hover {
@@ -185,13 +186,6 @@ section img#montains_front{
   color: #552583;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 800%);
-  color: black;
-}
 
 #myBtn {
   display: none;
@@ -221,6 +215,17 @@ h3{
 	text-align: center;
 }
 
+footer{
+  overflow: hidden;
+  background-color: #001e01;  
+  width: 100%;
+  text-align: center;
+  color: #f1f1f1;
+  
+}
+.rodape{
+	margin: 5px;
+}
 
 
 /* .anima {
