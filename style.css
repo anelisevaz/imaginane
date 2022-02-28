@@ -94,12 +94,12 @@ section img#montains_front{
 
 #text{
 	position: absolute;
-	right: -350px;
+	right: -22px;
 	color: #001e01;
 	white-space: nowrap;
-	font-size: 7.5vw;
+	font-size: 6vw;
 	font-size: 1.5 rem;
-	z-index: 9;
+
 }
 #btn{
 	text-decoration: none;
