@@ -94,8 +94,8 @@ section img{
 	text-align: center;
 	display: block;
 	text-decoration: none;
-	padding: 20px;
-    margin: 10px;
+	padding: 8px;
+    margin: 27px;
 	border-radius: 40px;
 	background: #15006c;
 	color: #ffffff;
@@ -108,6 +108,26 @@ section img{
 	color: #15006c;
 	background: #ced2fa;
 	box-shadow:0px 0px 15px #15006c;
+	transition: 0.7s;
+}
+
+.botaogit{
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+    margin: 15%;
+	border-radius: 40px;
+	background: #15006c;
+	color: #ffffff;
+	font-size: 1.3rem;
+	z-index: 1;
+	box-shadow:0px 0px 15px black;
+}
+
+.botaogit:hover{
+	color: #15006c;
+	background: #ced2fa;
+	box-shadow:0px 0px 15px #8e98ff;
 	transition: 0.7s;
 }
 

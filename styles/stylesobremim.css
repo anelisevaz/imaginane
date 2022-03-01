@@ -128,8 +128,7 @@ h2{
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 33px;
-    height: 450px;
-}
+ }
 
 .row:after {
   content: "";
