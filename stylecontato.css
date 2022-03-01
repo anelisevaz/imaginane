@@ -49,56 +49,18 @@ header ul li a{
 
 header ul li a:hover,
 header ul li a.active{
-	background: #08002a;
+	background: #001e01;
 	color:#dad2fb;
 }
 
-section{
-	margin: 10px;
-}
-
-  h1 {
-    max-width: 900px;
+/*.lampada {
     text-align: center;
     margin: 60px auto;
-    font-family: 'Poppins', sans-serif;
-    color: #001e01;
-    font-size: 4vw;
-  }
+}*/
 
-  h1::after {
-    content: '|';
-    opacity: 1;
-    margin-left: 5px;
-    display: inline-block;
-    animation: blink .7s infinite;
-  }
-
-h2{
-	text-align: center;
-	margin: 15px;
-}
-
-
-  @keyframes blink {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-  }
-  
-.quemsou{
-	text-align: justify;
-}
-
-.paragrafoum{
-	text-align:center
-}
 
 #myBtn {
-    display: none;
+  display: none;
     position: fixed;
     bottom: 19px;
     right: 21px;
@@ -121,26 +83,9 @@ h2{
     margin: -20px;
 }
 
-
-.column {
-    float: left;
-    width: 33%;
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 33px;
-    height: 450px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+h3, h2, p{
+	text-align: center;
+	color: #08002a;
 }
 
 footer{
@@ -155,3 +100,78 @@ footer{
 	margin: 5px;
 }
 
+
+.anima {
+    max-width: 900px;
+    text-align: center;
+    margin: 60px auto;
+    font-family: 'Poppins', sans-serif;
+    color: #001e01;
+    font-size: 4vw;
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0.4;
+    transform: translateY(500%);
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 5;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 5;
+    transform: translateY(0%);
+  }
+}
+
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 30px;
+  
+}
+
+.botao{
+	text-align: center;
+
+}
+
+
+button:hover{
+    width:  20%; 
+    background: #d4ccf5; 
+    color: white; 
+}
+
+button{
+    width: 20%;
+    color: #c2b7ef;
+    border: none;
+    border-radius: 20px;
+    background: #e8e3fb;   
+}
+
+
+img{
+margin-left: auto;
+    margin-right: auto;
+    width: 100%;  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
