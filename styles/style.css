@@ -141,7 +141,7 @@ section img#montains_front{
 }
 
 .card:hover {
-  background-color: #5b7f00;
+  background-color: #001e01;;
   transition-duration: 0.9s;
 }
 
@@ -228,25 +228,3 @@ footer{
 	margin: 5px;
 }
 
-
-/* .anima {
-  animation: 2s anim-lineUp ease-out;
-}
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0.4;
-    transform: translateY(120%);
-  }
-  20% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 5;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 5;
-    transform: translateY(0%);
-  }
-}
-*/

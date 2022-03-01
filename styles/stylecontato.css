@@ -99,6 +99,10 @@ footer{
 .rodape{
 	margin: 5px;
 }
+.anorodape{
+color: #f1f1f1;
+	}
+
 
 
 .anima {
@@ -133,6 +137,7 @@ footer{
     float: left;
     width: 33%;
     padding: 30px;
+    text-align: center;
   
 }
 
@@ -146,6 +151,7 @@ button:hover{
     width:  20%; 
     background: #d4ccf5; 
     color: white; 
+    cursor: pointer;
 }
 
 button{
@@ -174,4 +180,30 @@ margin-left: auto;
   .column {
     width: 100%;
   }
+}
+
+
+.fa {
+  padding: 32px;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 2rem !important;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #c80256;
+  color: white;
 }
