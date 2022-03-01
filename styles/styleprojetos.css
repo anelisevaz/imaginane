@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+} 
+
+body{
+	min-height: 100vh;
+	overflow-x: hidden;
+	background: #e2ddff;
+}
+
+header{
+	text-shadow: 1px 1px 5px #2900cd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+header .logo{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+header ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #ffffff;
+	border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+	background: #001e01;
+	color:#dad2fb;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+section::before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: #08002a;
+}
+
+
+.quemsou{
+	text-align: center;
+}
+
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+
+
+.botao{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+    margin: 10px;
+	border-radius: 40px;
+	background: #15006c;
+	color: #ffffff;
+	font-size: 1.8rem;
+	z-index: 1;
+	box-shadow:0px 0px 15px #3200ff;
+}
+
+.botao:hover{
+	color: #15006c;
+	background: #ced2fa;
+	box-shadow:0px 0px 15px #15006c;
+	transition: 0.7s;
+}
+
+h2{
+	text-align: center;
+}
+
+.column {
+	position: relative;
+  float: left;
+  width: 33%;
+    padding: 20px;
+    margin-bottom: 20px;
+   background-color:#dad2fbd9;
+   border-radius: 20px;
+    z-index: 1;
+    box-shadow:0px 5px 8px #08002a6e;
+}
+
+.row{
+	margin: 10px;
+	    height: 20rem;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+#myBtn {
+  display: none;
+    position: fixed;
+    bottom: 19px;
+    right: 21px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+     border-radius: 4px;
+}
+
+
+#seta {
+    position: absolute;
+    padding: 8px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(135deg);
+    margin: -20px;
+}
+
+footer{
+  overflow: hidden;
+  background-color: #08002a;  
+  width: 100%;
+  text-align: center;
+  color: #f1f1f1;
+  
+}
+.rodape{
+	margin: 5px;
+}
+
