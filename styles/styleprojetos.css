@@ -75,6 +75,19 @@ section::before{
 }
 
 
+h1{
+	font-size: 3rem;
+	text-align: center;
+	position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+   	border-radius: 20px;
+    z-index: 1;
+    color: #15006c;
+    text-shadow: 0px -3px 4px #dad2fb;
+}
+
+
 .quemsou{
 	text-align: center;
 }
@@ -133,6 +146,7 @@ section img{
 
 h2{
 	text-align: center;
+	color: #15006c;
 }
 
 .column {
@@ -148,8 +162,8 @@ h2{
 }
 
 .row{
-	margin: 10px;
-	    height: 20rem;
+	margin: 1px;
+    height: 18rem;
 }
 .row:after {
   content: "";
